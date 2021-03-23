@@ -2,17 +2,15 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import {
   selectedFavoritesGames,
-  selectCategories,
   deleteFromFavourites,
 } from "../features/appSlice";
 
 const ContenItem = ({ name, id, img, top }) => {
   const [selected, setSelected] = useState(false);
   const dispatch = useDispatch();
-  const categories = useSelector(selectCategories);
 
   const handleSelect = async () => {
     await setSelected(!selected);

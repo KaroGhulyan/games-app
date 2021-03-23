@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import SidebarOption from "./SidebarOption";
 import gameService from "../../services/index";
@@ -11,14 +11,13 @@ import styled from "styled-components";
 import SidebarHeader from "./SidebarHeader";
 
 function Sidebar() {
-  
   const dispatch = useDispatch();
   const categories = useSelector(selectCategories);
   const favorites = useSelector(selectedFavorites);
-  
+
   useEffect(() => {
     gameService.getAllGames().then((data) => dispatch(setData({ data })));
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <SidebarContainer>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import styled from "styled-components";
 import { filterGamesBySearch } from "../../features/appSlice";
@@ -11,9 +11,9 @@ const SidebarHeader = () => {
     setSearchTerm(event.target.value);
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     dispatch(filterGamesBySearch({ searchTerm }));
-  }, [searchTerm]);
+  }, [searchTerm]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <SidebarHeaderContainer>
