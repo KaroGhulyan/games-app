@@ -1,0 +1,188 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "Aquarium",
+      "img": {
+        "small": "https://i.ibb.co/PmXDb7w/aquarium.jpg",
+        "large": "https://i.ibb.co/MkQ02K9/aquarium-L-1.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Arabeska",
+      "img": {
+        "small": "https://i.ibb.co/v1jT8Xw/arabeska.jpg",
+        "large": "https://i.ibb.co/wQfJBp6/aquarium-L-2.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bank of Gold",
+      "img": {
+        "small": "https://i.ibb.co/8PtKH8f/bank-of-gold.jpg",
+        "large": "https://i.ibb.co/jk2qZW3/aquarium-L-3.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Basketball",
+      "img": {
+        "small": "https://i.ibb.co/2gB91zb/basketball.jpg",
+        "large": "https://i.ibb.co/jD9ThtB/aquarium-L-4.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Battleship",
+      "img": {
+        "small": "https://i.ibb.co/q5T9X3B/battleship.jpg",
+        "large": "https://i.ibb.co/VD1BLd9/aquarium-L-5.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Christmas",
+      "img": {
+        "small": "https://i.ibb.co/27g4VLv/christmas.jpg",
+        "large": "https://i.ibb.co/q7wKX2V/aquarium-L-6.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Football",
+      "img": {
+        "small": "https://i.ibb.co/WDxHZ3T/football.jpg",
+        "large": "https://i.ibb.co/xmC0ggc/aquarium-L-7.jpg"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Fortune",
+      "img": {
+        "small": "https://i.ibb.co/3135tsT/fortune.jpg",
+        "large": "https://i.ibb.co/ZgLzQtx/aquarium-L-8.jpg"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Gansgsters",
+      "img": {
+        "small": "https://i.ibb.co/nMLNrVQ/gansgsters.jpg",
+        "large": "https://i.ibb.co/VYcsGf6/aquarium-L-9.jpg"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Hockey",
+      "img": {
+        "small": "https://i.ibb.co/f9PzLBF/hockey.jpg",
+        "large": "https://i.ibb.co/nQV6x3g/aquarium-L-10.jpg"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Lucky7",
+      "img": {
+        "small": "https://i.ibb.co/5ky7F8b/lucky7.jpg",
+        "large": "https://i.ibb.co/yFCWXFC/aquarium-L-11.jpg"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Pyramid",
+      "img": {
+        "small": "https://i.ibb.co/KhRBSFj/pyramid.jpg",
+        "large": "https://i.ibb.co/XkyQtm7/aquarium-L-12.jpg"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Royal Riches",
+      "img": {
+        "small": "https://i.ibb.co/hshvMgZ/royal-riches.jpg",
+        "large": "https://i.ibb.co/8XBsH4G/aquarium-L-13.jpg"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Saloon",
+      "img": {
+        "small": "https://i.ibb.co/HgFFB9w/saloon.jpg",
+        "large": "https://i.ibb.co/dQmVQ6N/aquarium-L-14.jpg"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Super7",
+      "img": {
+        "small": "https://i.ibb.co/nkkNzcY/super7.jpg",
+        "large": "https://i.ibb.co/zQzZD1K/aquarium-L-15.jpg"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Vegas",
+      "img": {
+        "small": "https://i.ibb.co/nzkMXf1/vegas.jpg",
+        "large": "https://i.ibb.co/RbtSWdf/aquarium-L-16.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "nameKey": "All games",
+      "games": [
+        {"id": 1, "top": true},
+        {"id": 2, "top": true},
+        {"id": 3, "top": false},
+        {"id": 4, "top": true},
+        {"id": 5, "top": false},
+        {"id": 6, "top": true},
+        {"id": 7, "top": false},
+        {"id": 8, "top": false},
+        {"id": 9, "top": true},
+        {"id": 10, "top": true},
+        {"id": 11, "top": false},
+        {"id": 12, "top": false},
+        {"id": 13, "top": false},
+        {"id": 14, "top": false},
+        {"id": 15, "top": true},
+        {"id": 16, "top": false}
+      ]
+    },
+    {
+      "id": 1,
+      "nameKey": "Scratch",
+      "games": [
+        {"id": 5, "top": false},
+        {"id": 6, "top": true},
+        {"id": 7, "top": false},
+        {"id": 8, "top": false},
+        {"id": 9, "top": true}
+      ]
+    },
+    {
+      "id": 2,
+      "nameKey": "Quick",
+      "games": [
+        {"id": 12, "top": false},
+        {"id": 13, "top": false},
+        {"id": 14, "top": false},
+        {"id": 15, "top": true}
+      ]
+    },
+    {
+      "id": 3,
+      "nameKey": "Cards",
+      "games": [
+        {"id": 1, "top": true},
+        {"id": 2, "top": true},
+        {"id": 3, "top": false},
+        {"id": 4, "top": true},
+        {"id": 5, "top": false}
+      ]
+    }
+  ]
+}
